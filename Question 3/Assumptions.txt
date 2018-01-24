@@ -1,0 +1,6 @@
+Assumptions for Question 3
+- All file names with the .inform extension are uniquely named
+- All .inform files start with the first line 'Port #XXXX' with the X's representing a variable length hexadecimal value at least 4 characters long
+- That the output does not need to specifically match that of the example given
+- That the file system can be abstracted as a tree-structure, consisting of parent nodes (folders/links) and root nodes (files)
+- That a file system does not have an excessive depth as that recursive traversal and edge storage does not exceed reasonable memory use

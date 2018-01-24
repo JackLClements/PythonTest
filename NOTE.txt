@@ -1,0 +1,4 @@
+NOTES
+- All code was written in the Spyder IDE, in the Anaconda 2.7 distribution of Python
+- All code was tested on a Windows 10 PC. UNIX-specific code should still work.
+- Code should be able to be run via the command line using the python command. Alternatively scripts can be loaded into an IDE and the interpreter called from there.

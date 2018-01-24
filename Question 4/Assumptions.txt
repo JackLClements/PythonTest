@@ -1,0 +1,16 @@
+Assumptions for Question 4
+- That the User's username serves as the sole primary key
+- That a full database implementation does not matter
+- That the data stored in the database can be inherently unordered, as long as there are no duplicates
+- That the program will terminate after a user registers, changes their password or produces 3 incorrect attempts
+- That all newly registered users must input a new password twice to register
+- That all previously registered users must input their previous password twice to register
+- That all previously registered users must input a new password twice to change it
+- That the file PasswordDB always exists
+
+Extension note
+- A potential extension would be to add an exceptions clause for specific errors, such as users not existing, as well as smaller, specific errors for incorrect password formatting
+
+Expect note
+- Despite trying to run some code with WinPexpect, no variations tried would work. This is seemingly due to an operating system incompatibility. 
+- My plan was to create a set of comprahensive tests, both black box and unit tests as functions, providing stock input that gauging the response of specific functions and also gauging outside input/output via expect

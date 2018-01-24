@@ -1,0 +1,3 @@
+Assumptions for Question 2
+- All statements can be processed in UTF-8 encoding by a regular expression
+- That the list of statements is not too excessive as to cause errors
